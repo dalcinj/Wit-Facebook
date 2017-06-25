@@ -12,7 +12,10 @@
   "license": "MIT",
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
-    "unmockedModulePathPatterns": ["core-js/.*", "sshpk/.*"]
+    "unmockedModulePathPatterns": [
+      "core-js/.*",
+      "sshpk/.*"
+    ]
   },
   "dependencies": {
     "body-parser": "^1.15.0",
@@ -28,10 +31,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hunkim/Wit-Facebook.git"
+    "url": "https://github.com/dalcinj/Wit-Facebook.git"
   },
   "bugs": {
-    "url": "https://github.com/hunkim/Wit-Facebook/issues"
+    "url": "https://github.com/dalcinj/Wit-Facebook/issues"
   },
-  "homepage": "https://github.com/hunkim/Wit-Facebook#readme"
+  "homepage": "https://github.com/dalcinj/Wit-Facebook#readme"
 }
